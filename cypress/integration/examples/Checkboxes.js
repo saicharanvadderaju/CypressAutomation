@@ -18,7 +18,7 @@ describe('My First Test Suite', function()
 
       cy.get('select#dropdown-class-example').select('Option1').should('have.value','option1')
 
-      //Dynamic Dropdowns
+      //Dynamic Dropdowns and autosuggestions
 
       cy.get('#autocomplete').type('ind')
 

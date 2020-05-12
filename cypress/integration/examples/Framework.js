@@ -37,6 +37,7 @@ describe('My popup Test Suite', function()
     homepage.getshoptab().click()
 
     //cy.pause()
+//using reusable method here
 
     this.data.productname.forEach(function(element) {
       cy.selectproduct(element)
